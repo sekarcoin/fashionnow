@@ -3,30 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My E-commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <h1>Welcome to My E-commerce Store</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="collection.html">Collection</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="women-collection.html">Women Collection</a></li>
-                <li><a href="men-collection.html">Men Collection</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="about-us">
-        <h2>About Fashionista</h2>
-        <p>We bring the latest trends in fashion, offering both men's and women's clothing and accessories. Our mission is to provide the best quality and style for every occasion.</p>
-    </section>
+    <main>
+        <section id="featured">
+            <h2>Featured Products</h2>
+            <div class="product-card">
+                <img src="images/product1.jpg" alt="Product 1">
+                <p>Stylish Red Dress</p>
+                <p>$49.99</p>
+                <button class="add-to-cart" data-product="Product 1" data-price="49.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/product2.jpg" alt="Product 2">
+                <p>Casual White Shirt</p>
+                <p>$29.99</p>
+                <button class="add-to-cart" data-product="Product 2" data-price="29.99">Add to Cart</button>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Fashionista - All Rights Reserved</p>
+        <p>&copy; 2024 My E-commerce Store. All rights reserved.</p>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
